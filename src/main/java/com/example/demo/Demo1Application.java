@@ -15,6 +15,11 @@ public class Demo1Application {
         String hello() {
             return "Hello " + "there!";
         }
+
+        @GetMapping("/test")
+        String test() {
+            return "est";
+        }
     }
 
     public static void main(String[] args) {
